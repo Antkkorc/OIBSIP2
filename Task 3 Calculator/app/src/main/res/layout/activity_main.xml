@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#F4F0E8">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TASK 3  /  CALCULATOR" android:textColor="#D65B3F" android:textSize="12sp" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Calculator" android:textColor="#262724" android:textSize="32sp" />
+            <TextView android:id="@+id/display" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="end|center_vertical" android:minHeight="76dp" android:padding="14dp" android:text="0" android:textColor="#262724" android:textSize="34sp" android:background="#FFFFFF" />
+            <GridLayout android:id="@+id/key_grid" android:layout_width="match_parent" android:layout_height="wrap_content" android:columnCount="4" android:rowCount="5" android:useDefaultMargins="true">
+                <Button android:id="@+id/key_7" android:layout_width="0dp" android:layout_height="64dp" android:layout_column="0" android:layout_row="0" android:layout_columnWeight="1" android:text="7" />
+                <Button android:id="@+id/key_8" android:layout_width="0dp" android:layout_height="64dp" android:layout_column="1" android:layout_row="0" android:layout_columnWeight="1" android:text="8" />
+                <Button android:id="@+id/key_9" android:layout_width="0dp" android:layout_height="64dp" android:layout_column="2" android:layout_row="0" android:layout_columnWeight="1" android:text="9" />
+                <Button android:id="@+id/key_divide" android:layout_width="0dp" android:layout_height="64dp" android:layout_column="3" android:layout_row="0" android:layout_columnWeight="1" android:text="÷" />
+                <Button android:id="@+id/key_4" android:layout_width="0dp" android:layout_height="64dp" android:layout_column="0" android:layout_row="1" android:layout_columnWeight="1" android:text="4" />
+                <Button android:id="@+id/key_5" android:layout_width="0dp" android:layout_height="64dp" android:layout_column="1" android:layout_row="1" android:layout_columnWeight="1" android:text="5" />
+                <Button android:id="@+id/key_6" android:layout_width="0dp" android:layout_height="64dp" android:layout_column="2" android:layout_row="1" android:layout_columnWeight="1" android:text="6" />
+                <Button android:id="@+id/key_multiply" android:layout_width="0dp" android:layout_height="64dp" android:layout_column="3" android:layout_row="1" android:layout_columnWeight="1" android:text="×" />
+                <Button android:id="@+id/key_1" android:layout_width="0dp" android:layout_height="64dp" android:layout_column="0" android:layout_row="2" android:layout_columnWeight="1" android:text="1" />
+                <Button android:id="@+id/key_2" android:layout_width="0dp" android:layout_height="64dp" android:layout_column="1" android:layout_row="2" android:layout_columnWeight="1" android:text="2" />
+                <Button android:id="@+id/key_3" android:layout_width="0dp" android:layout_height="64dp" android:layout_column="2" android:layout_row="2" android:layout_columnWeight="1" android:text="3" />
+                <Button android:id="@+id/key_subtract" android:layout_width="0dp" android:layout_height="64dp" android:layout_column="3" android:layout_row="2" android:layout_columnWeight="1" android:text="−" />
+                <Button android:id="@+id/key_clear" android:layout_width="0dp" android:layout_height="64dp" android:layout_column="0" android:layout_row="3" android:layout_columnWeight="1" android:text="C" />
+                <Button android:id="@+id/key_0" android:layout_width="0dp" android:layout_height="64dp" android:layout_column="1" android:layout_row="3" android:layout_columnWeight="1" android:text="0" />
+                <Button android:id="@+id/key_dot" android:layout_width="0dp" android:layout_height="64dp" android:layout_column="2" android:layout_row="3" android:layout_columnWeight="1" android:text="." />
+                <Button android:id="@+id/key_add" android:layout_width="0dp" android:layout_height="64dp" android:layout_column="3" android:layout_row="3" android:layout_columnWeight="1" android:text="+" />
+                <Button android:id="@+id/key_back" android:layout_width="0dp" android:layout_height="64dp" android:layout_column="0" android:layout_row="4" android:layout_columnWeight="1" android:text="⌫" />
+                <Button android:id="@+id/key_equals" android:layout_width="0dp" android:layout_height="64dp" android:layout_column="1" android:layout_row="4" android:layout_columnSpan="3" android:layout_columnWeight="3" android:text="=" />
+            </GridLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

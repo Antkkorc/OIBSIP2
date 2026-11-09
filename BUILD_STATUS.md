@@ -1,7 +1,5 @@
-# Build and test status
+# Build notes
 
-All five feature flows have been implemented in the Java activity with an XML Android host layout. The source includes the converter, SQLite account/task store, PBKDF2 password hashing, arithmetic parser, bundled quiz, and monotonic stopwatch/lap handling.
+There are five separate Android Studio projects, one in each task folder. Each folder has its own Java app, XML resources and Gradle wrapper.
 
-**Build verification is pending.** This execution environment has Java 21 but no Android SDK (`android.jar`/`sdkmanager`) and no installed Gradle executable or wrapper, so an Android Gradle build and emulator run could not be performed here. Do not treat this project as compile-verified yet.
-
-Before submission, open the repository root in Android Studio, install SDK Platform 35 if requested, sync Gradle, build and run `app`, then complete every check in the README's verification checklist. Record the Android Studio/Gradle versions, emulator API level, and actual build/test results here. Fix and retest any issues before representing the app as complete to the internship evaluator.
+The Gradle wrapper started in all five folders. Gradle project tasks configured successfully for all five. I tried an Android build for Task 1, but it stopped because this sandbox has no Android SDK installed. I have not run the apps on an emulator. Open each task folder in Android Studio, allow it to install SDK Platform 35 if asked, then build and run the app. Add the results here after checking the five task READMEs.
