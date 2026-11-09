@@ -21,6 +21,10 @@ The source brief contradicted itself: it both bans and requests liquid glass, pi
 4. **Quiz:** 10 locally bundled questions, randomized order, immediate answer feedback, score, and restart.
 5. **Stopwatch:** monotonic elapsed-time tracking, start/pause/reset/laps; state is retained across activity pause/resume while the process lives.
 
+## Interactive browser preview
+
+Open [`preview.html`](preview.html) in a modern browser to click through the five flows. This is a UI/interaction preview only, not the native Android APK; its demo task data uses browser storage and does not provide the Android app's SQLite/password security.
+
 ## Open in Android Studio
 
 1. Clone or download this repository and open the **repository root** (`OIBSIP2`) in Android Studio.
