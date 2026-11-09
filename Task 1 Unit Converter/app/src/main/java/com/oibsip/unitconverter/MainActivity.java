@@ -35,7 +35,7 @@ public class MainActivity extends Activity {
             "Length, mass, volume and temperature");
     category = new Spinner(this);
     category.setAdapter(adapter(categories));
-    value = input("Enter a number", 8194);
+    value = input("Enter a number", 12290);
     source = new Spinner(this);
     target = new Spinner(this);
     result = text("Your result will appear here", 22, ink, true);
